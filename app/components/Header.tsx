@@ -16,24 +16,24 @@ const Header = () => {
         />
       </div>
       <nav className="flex gap-6">
-        <Link href="/" className="text-sm font-medium hover:underline">
+        <Link href="/" className="text-md font-bold hover:underline">
           Home
         </Link>
-        <Link href="/about" className="text-sm font-medium hover:underline">
+        <Link href="/about" className="text-md font-bold hover:underline">
           About
         </Link>
-        <Link href="/contact" className="text-sm font-medium hover:underline">
+        <Link href="/contact" className="text-md font-bold hover:underline">
           Contact
         </Link>
       </nav>
 
       <div className="flex gap-auto mr-5">
-        <Link href="/contact" className="text-sm p-3 font-medium hover:underline">
+        <Link href="/contact" className="text-md p-3 font-medium hover:underline">
           Login
         </Link>
         <Link
           href="/contact"
-          className="text-sm font-medium text-black bg-green-400 hover:bg-green-300 p-3 rounded-full flex items-center gap-2 transition-colors"
+          className="text-sm font-md text-black bg-teal-400 hover:bg-teal-300 p-3 rounded-full flex items-center gap-2 transition-colors"
         >
           <span>Sign Up</span>
           <span className="text-lg">→</span>
