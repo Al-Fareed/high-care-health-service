@@ -28,12 +28,12 @@ const Header = () => {
       </nav>
 
       <div className="flex gap-auto mr-5">
-        <Link href="/contact" className="text-md p-3 font-medium hover:underline">
+        <Link href="/contact" className="text-md p-3 font-md hover:underline">
           Login
         </Link>
         <Link
           href="/contact"
-          className="text-sm font-md text-black bg-teal-400 hover:bg-teal-300 p-3 rounded-full flex items-center gap-2 transition-colors"
+          className="text-md font-medium text-black bg-teal-400 hover:bg-teal-300 p-3 rounded-full flex items-center gap-2 transition-colors"
         >
           <span>Sign Up</span>
           <span className="text-lg">→</span>
